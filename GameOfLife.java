@@ -12,7 +12,7 @@ public class GameOfLife {
 		//// Uncomment the test that you want to execute, and re-compile.
 		//// (Run one test at a time).
 		//// test1(fileName);
-		//// test2(fileName);
+		////test2(fileName);
 		//// test3(fileName, 3);
 		 play(fileName);
 	}
@@ -157,7 +157,7 @@ public class GameOfLife {
     public static void print(int[][] arr) {
 		for(int i =0; i < arr.length;i++){
 			for(int j=0; j < arr[i].length;j++){
-				System.out.print(arr[i][j]);
+				System.out.printf("%3s",arr[i][j]);
 			}
 			System.out.println();
 		}
